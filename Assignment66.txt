@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semantic HTML Document</title>
+</head>
+<body>
+	<!-- Header section -->
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main content section -->
+	<main>
+		<article>
+			<h2>Semantic HTML: A New Way of Writing HTML</h2>
+			<p>Semantic HTML is a way of writing HTML that emphasizes the meaning of the content, rather than just its presentation. It uses HTML elements that provide meaning to the structure of a web page, making it easier for search engines and screen readers to understand the content.</p>
+			<p>By using semantic HTML, developers can create web pages that are more accessible, more search engine friendly, and more maintainable. It's a new way of thinking about HTML, and it's becoming increasingly popular among web developers.</p>
+		</article>
+	</main>
+	
+	<!-- Sidebar section -->
+	<aside>
+		<h3>Related Links</h3>
+		<ul>
+			<li><a href="#">HTML5 Tutorial</a></li>
+			<li><a href="#">Semantic HTML Guide</a></li>
+			<li><a href="#">Web Accessibility Resources</a></li>
+		</ul>
+	</aside>
+	
+	<!-- Footer section -->
+	<footer>
+		<p>Contact Information:</p>
+		<ul>
+			<li><a href="mailto:info@example.com">info@example.com</a></li>
+			<li><a href="tel:+1234567890">+1234567890</a></li>
+			<li><a href="#">Follow us on social media</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

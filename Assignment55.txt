@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Top 5 Favorite Movies</title>
+</head>
+<body>
+    <h1>Top 5 Favorite Movies</h1>
+    <ol>
+        <li>Baahubali: The Beginning
+            <ul>
+                <li><strong>Year Released:</strong> 2015</li>
+                <li><strong>Main Actors:</strong> Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah</li>
+                <li><strong>Description:</strong> An epic action film that tells the story of two warring brothers in the kingdom of Mahishmati. The movie is known for its grand scale, visual effects, and compelling storyline.</li>
+            </ul>
+        </li>
+        <li>Geetha Govindam
+            <ul>
+                <li><strong>Year Released:</strong> 2018</li>
+                <li><strong>Main Actors:</strong> Vijay Deverakonda, Rashmika Mandanna</li>
+                <li><strong>Description:</strong> A romantic comedy about an innocent young lecturer who falls in love with a woman who initially misunderstands and rejects him, leading to a series of humorous and heartwarming events.</li>
+            </ul>
+        </li>
+        <li>Pokiri
+            <ul>
+                <li><strong>Year Released:</strong> 2006</li>
+                <li><strong>Main Actors:</strong> Mahesh Babu, Ileana D'Cruz</li>
+                <li><strong>Description:</strong> An action-packed story about an undercover cop infiltrating the underworld to bring down a mafia kingpin. The movie is renowned for its intense action sequences and gripping plot.</li>
+            </ul>
+        </li>
+        <li>iSmart Shankar
+            <ul>
+                <li><strong>Year Released:</strong> 2019</li>
+                <li><strong>Main Actors:</strong> Ram Pothineni, Nidhhi Agerwal, Nabha Natesh</li>
+                <li><strong>Description:</strong> A science fiction action film about a street-smart hitman who has a change of heart and becomes a vigilante after a chip is implanted in his brain, allowing him to access someone else's memories.</li>
+            </ul>
+        </li>
+        <li>Sye
+            <ul>
+                <li><strong>Year Released:</strong> 2004</li>
+                <li><strong>Main Actors:</strong> Nithiin, Genelia D'Souza</li>
+                <li><strong>Description:</strong> A sports drama centered around rugby, depicting the rivalry between two college gangs that unite to take on a common enemy in a high-stakes rugby match.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>

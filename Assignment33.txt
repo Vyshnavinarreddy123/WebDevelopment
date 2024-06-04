@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Weekly-Schedule</title>
+</head>		
+<body>
+	
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td>Breakfast</td>
+            <td>Revision</td>
+            <td>Solving_pblms</td>
+            <td>Yooga</td>
+            <td>Study</td>
+            <td>Brunch</td>
+            <td>Meditation</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>Lunch</td>
+            <td>Work</td>
+            <td>Lunch</td>
+            <td>Work</td>
+            <td>Project</td>
+            <td>Sleeping</td>
+            <td>Movie</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Dinner</td>
+            <td>Meeting_Family</td>
+            <td>Dinner</td>
+            <td>BasketBall</td>
+            <td>Dinner</td>
+            <td>Sleeping</td>
+            <td>Coding</td>
+        </tr>
+    </table>
+</body>
+</html>

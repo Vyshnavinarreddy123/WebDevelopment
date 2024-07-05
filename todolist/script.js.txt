@@ -1,0 +1,61 @@
+// script.js
+
+const taskInput = document.getElementById('task-input');
+const dueDateInput = document.getElementById('due-date-input');
+const reminderInput = document.getElementById('reminder-input');
+const addTaskBtn = document.getElementById('add-task-btn');
+const taskList = document.getElementById('task-list');
+
+let tasks = [];
+
+addTaskBtn.addEventListener('click', addTask);
+
+function addTask() {
+    const task = taskInput.value.trim();
+    const dueDate = dueDateInput.value;
+    const reminderTime = reminderInput.value;
+    if (task && dueDate && reminderTime) {
+        tasks.push({
+            text: task,
+            dueDate: dueDate,
+            reminderTime: reminderTime,
+            completed: false
+        });
+        renderTasks();
+        taskInput.value = '';
+        dueDateInput.value = '';
+        reminderInput.value = '';
+    }
+}
+
+function renderTasks() {
+    taskList.innerHTML = '';
+    tasks.forEach((task, index) => {
+        const taskElement = document.createElement('li');
+        taskElement.textContent = `${task.text} - Due: ${task.dueDate} - Reminder: ${task.reminderTime}`;
+        if (task.completed) {
+            taskElement.classList.add('completed');
+        }
+        if (isReminderTime(task.reminderTime)) {
+            taskElement.classList.add('reminder');
+        }
+        taskElement.addEventListener('click', () => {
+            task.completed = !task.completed;
+            renderTasks();
+        });
+        taskList.appendChild(taskElement);
+    });
+}
+
+function isReminderTime(reminderTime) {
+    const currentTime = new Date();
+    const reminderTimeParts = reminderTime.split(':');
+    const reminderHour = parseInt(reminderTimeParts[0]);
+    const reminderMinute = parseInt(reminderTimeParts[1]);
+    if (currentTime.getHours() === reminderHour && currentTime.getMinutes() === reminderMinute) {
+        return true;
+    }
+    return false;
+}
+
+renderTasks();
